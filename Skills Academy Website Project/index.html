@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Educational Website Using HTML, CSS & JavaScript</title>
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <!-- GOOGLE FONTS (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Swiper JS-->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>SKILLS ACADEMY</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!--buttons settings from iconscout-->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div> 
+    </nav>
+    <!--********************End Of NAVBAR***************-->
+
+
+
+     <!--**********HEADER BEGINS***************-->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>
+                    Go from no-skill to an in-demand digital-tech skills professional, with our certified computer
+                    appreciation, digital marketing, creative design and web development course.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header__right.image">
+                    <img src="./images/undraw_true_friends_c-94-g.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--**********END OF HEADER***************-->
+
+
+
+
+    <!--**********CATEGORIES BEGINS***************-->
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>
+                    We Provide the best, free, advanced and top-notch
+                    In-demand digital skills courses ranging from beginner to advance level. 
+                    With our modern day learning technologies and easy learning instructors, you're sure in for a treat
+                </p>
+                <a href="a" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brackets-curly"></i></span>
+                    <h5>Web Design</h5>
+                    <p> Get started with website design and development from basic HTML, CSS and JavaScript
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-baby-carriage"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>Learn the full concept of graphic design with tons of client design project practicals 
+                
+                     
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-atom"></i></span>
+                    <h5>MS Office Services</h5>
+                    <p>Get started with computer literacy course with ms office management 
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-desktop"></i></span>
+                    <h5>SEO Optimization</h5>
+                    <p>We provide the complete and full concept of SEO optimization B to A course  
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-video"></i></span>
+                    <h5>Digital Marketing</h5>
+                    <p>We provide everything you need to know about digital marketing 
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-google"></i></span>
+                    <h5>Content Writing</h5>
+                    <p>Become a content marketer by writing stunning articles for companies and brands  
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+  <!--**********END OF CATEGORIES***************--> 
+ 
+  
+
+    <!--********** COURSES BEGINS ***************-->
+    <section class="courses">
+        <h2>Our Popular Courses</h2>  
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <a href="./images/popular_course1.png" target="_blank"><img src="./images/popular_course1.png" class="ima1"></a>
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Social Media Web Application</h4>
+                    <p>
+                        Learn and build modern social web application with 
+                        advance html,css,javascript
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <a href="./images/popular_course2.jpg"><img src="./images/popular_course2.jpg" class="ima1"></a> 
+                </div>
+                <div class="course__info">
+                    <h4>Product Banner Design Adobe Photoshop</h4>
+                    <p>
+                    Learn how to use photoshop to create stunning product poster, flyer and banner design
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <a href="./images/popular_course3.png" target="_blank"><img src="./images/popular_course3.png" class="ima1"></a>
+                </div>
+                <div class="course__info">
+                    <h4> Port-folio Website Built With HTML, CSS and Js</h4>
+                    <p>
+                        Learn how to build responsive port-folio webpages with front-end web development
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>            
+
+      <!--********** END OF COURSES ***************-->
+
+
+
+
+      <!--********** FAQS BEGINS ***************-->
+      <section class="faqs">
+          <h2>Frequently Asked Questions</h2>
+          <div class="container faqs__container">
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                      <p>
+                          Knowing the right course for you is easy if you can identify
+                          the course that fit in to your career path 
+                          As a beginner, i'll recommended starting of with computer appreciation
+                          
+                          
+                      </p>
+                </div>
+            </article>
+           
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i learn digital marketing</h4>
+                      <p>
+                          Digital marketing start by understanding the various layers of digital marketing
+                          ranging from social media to web to ppc etc
+                          Digital marketing is a great course to learn in this world of advance digitaliazation 
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What are the career option in web development</h4>
+                      <p>
+                          Web development has many branches that you can choose for your career, eg. 
+                          Front-end & Back-end dev, web 3, devOps, cloudcomputing and many more.
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Different Between Web dev and Software dev</h4>
+                      <p>
+                         Web dev is the building, structure and maintainance of wedpages availiable on the web
+                         Software dev is the building of application and system software for users on different platform
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What is the best course for a beginner?</h4>
+                      <p>
+                         For a beginner in tech, i would highly recommend starting from the fundamentals and basic of computer 
+                         with our computer appreciation course to get you started in the tech industry.
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Career options for a creative designer</h4>
+                      <p> 
+                       As a creative designer, there are tons of branches in designing, eg. UI/UX design
+                       Graphic Design, Product Design, Infographics and many more...
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Which Computer Training course is best for me? </h4>
+                      <p>
+                        I highly recommend students to start with MS Office package course,
+                         it's statistically the best computer training course for a newbie.
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What is SEO and why is it important</h4>
+                      <p>
+                          Search engine optimization popularly known as (SEO) is the optimization of businesses, brands, webpages, 
+                          social profile and informations to be visible on the search engine. This allows potential target audience to locate
+                          and interact with your business with ease.
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Is there any free course?</h4>
+                      <p>
+                          All our courses here at <a href="index.html"><b>skillsacademy</b></a> are totally free for anyone 
+                          to enrol, the goal is to equip quality techstars for the future economy.
+                      </p>
+                </div>
+            </article>
+
+            <article class="faq"> 
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i learn Content Marketing</h4>
+                      <p>
+                        Content marketing is the creation of creative, stunning and highend content for a brand or company through blog/article 
+                        writing, social media post etc. <a href="index.html"><b>skillsacademy</b></a> offers the best content marketing course
+                        on the internet
+                      </p>
+                </div>
+            </article>
+          </div>
+      </section>
+
+      <!--********** FAQS ENDS ***************-->
+
+
+
+
+
+      <section class="container testimonials__Container mySwiper">
+          <h2>Students' Testimonials</h2>
+          <div class="swiper-wrapper">
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/joy.jpg" alt="">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Diana Ali</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        I enrolled in the skillsacademy graphic design course lastyear and i landed my first brand design job today! 
+                        With discipline and consistency, i was able to finish the course and improved drastically on my design skills.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/graphic designer.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>David Harrison</h5>
+                    <small>Creative Writer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                      I highly recommend skillsacademy content marketing course to anyone (beginner - professional) hoping to learn everything there is to know about
+                      writing in bit, steps and details. 
+                    </p>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/k.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Isreal Rex</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                      With the level of high class content and top-notch courses tutorials, Skills Academy is basically the best digital skills training website on the internet today.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm9.jpeg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Olamide Adedeji</h5>
+                    <small>Studemt</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      In amet perspiciatis veritatis optio ut temporibus quia saepe maiores dolore corporis.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm6.jpeg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>David Kalu</h5>
+                    <small>Web Designer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      In amet perspiciatis veritatis optio ut temporibus quia saepe maiores dolore corporis.
+                    </p>
+                </div>
+            </article>
+          </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+      
+
+
+
+
+        <footer>
+            <div class="container footer__container">
+                <div class="footer__1">
+                    <a href="index.html" class="footer__logo"><h4>SKILLS ACADEMY</h4></a>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ex.
+                    </p>
+                </div>
+
+                <div class="footer__2">
+                    <h4>Permalinks</h4>
+                    <ul class="Permalinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__3">
+                    <h4>Privacy</h4>
+                    <ul class="privacy">
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms and conditions</a></li>
+                        <li><a href="#">Refund Policy</a></li>   
+                    </ul>
+                </div>
+
+                <div class="footer__4">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <p>+234 9033148179</p>
+                        <p>skillsacademy@gmail.com</p>
+                    </div>
+
+                    <ul class="footer__socials">
+                        <li>
+                            <a href="#"><i class="uli uil-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="uli uil-instagram-alt"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="uli uil-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="uli uil-linkedin-alt"></i></a>
+                        </li>  
+                    </ul>
+                </div>
+           
+            </div>
+            <div class="footer__copyright">
+                <small>Copyright &copy; SKILLS ACADEMY</small>
+            </div>
+        </footer>  
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>       
+    
+
+
+    <script> var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    // when window width is >=600px
+  breakpoints:{
+      600: {
+        slidesPerView: 2
+      }
+    }
+  }); 
+  
+    </script>
+
+</body>
+</html>
